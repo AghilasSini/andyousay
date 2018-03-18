@@ -1,6 +1,6 @@
 {
   "name": "andyousay",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "speech and language web service",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/AghilasSini/andyousay/issues"
   },
-  "homepage": "https://github.com/AghilasSini/andyousay#readme"
+  "homepage": "https://github.com/AghilasSini/andyousay#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "markdown": "^0.5.0"
+  }
 }
