@@ -17,6 +17,11 @@ app.get('/',function(req,res){
 	res.setHeader('Content-Type','text/plain');
 	res.send('Machine can realy understand humane');
 })
+.get('/references/:number',function(req,res){
+	var names=['Oliver Watts','Simon King','Aghilas Sini'];
+	res.render('references.ejs',{compter: req.params.number,names:names});
+
+})
 .use(function(req,res,next){
 	res.setHeader('Content-Type','text/plain');
 	res.status(404).send('Page introuvable!')

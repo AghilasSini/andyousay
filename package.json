@@ -26,6 +26,9 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.3",
-    "markdown": "^0.5.0"
+    "favicon": "0.0.2",
+    "markdown": "^0.5.0",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
   }
 }
